@@ -1,0 +1,129 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: goldenrod;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: greenyellow;
+}
+
+.active {
+  background-color: goldenrod;
+}
+
+.button
+{
+    font-size: 13px;
+    color:white;
+    background-color: goldenrod;
+    border-radius: 12px;
+}  
+
+
+div.a {
+  list-style-type: none;
+  margin: 0;
+  padding: 40px;
+  overflow: hidden;
+  background-color: goldenrod;
+  text-align:center;
+}
+
+div.b{
+ 
+  text-align: center;
+
+}
+
+div.c {
+  list-style-type: none;
+  margin: 0px;
+  padding: 40px;
+  overflow: hidden;
+  background-color: goldenrod;
+  text-align:center;
+}
+
+div.d {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color:white;
+  background-color: black;
+  text-align:center;
+}
+
+
+
+.col-2 img{
+  max-width: 400px;
+  max-height: 450px;
+  padding: 50px 0px;
+  }
+.col-3 img{
+  max-width: 700px;
+  max-height: 450px;
+  padding: 50px 0px;
+  }
+
+
+.col-2{
+  flex-basis: 48%;
+  line-height: 28px;
+  margin:auto;
+  
+}
+
+.row{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.single-product{
+margin-top: 25px;
+}
+
+.flex-container {
+display: flex;
+text-align: center;
+
+
+}
+
+.flex-container > div {
+margin: 10px;
+padding: 30px 20px;
+max-width: 900px;
+
+}
+.t1{
+font-size: 15px;
+color: gray;
+}
+t2{
+font-size: 50px;
+}
+.s{
+word-spacing: 1cm; 
+font-size: 25px;
+font-style: initial;
+}
+
+
